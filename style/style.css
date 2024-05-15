@@ -1,0 +1,14 @@
+.container {
+  max-width: 1146px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h4 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #5863e3;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-family: "roboto", sans-serif;
+}
