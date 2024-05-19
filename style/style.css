@@ -1,7 +1,23 @@
 .container {
   max-width: 1146px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
+}
+
+.container2 {
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+section {
+  margin-bottom: 40px;
 }
 
 h4 {
@@ -10,5 +26,72 @@ h4 {
   color: #5863e3;
   line-height: 20px;
   text-transform: capitalize;
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 56px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  width: 600px;
+  margin-bottom: 50px;
+}
+
+.images {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  padding: 65px 0;
+}
+
+.left_side h2 {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-bottom: 23px;
+}
+
+.left_side p {
+  color: #99999a;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  max-width: 295px;
+  margin-bottom: 27px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.right_side {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+}
+
+.right_side .navs h2 {
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-bottom: 32px;
+}
+
+.right_side .navs .nav p {
+  color: #5863e3;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  margin-bottom: 10px;
 }
